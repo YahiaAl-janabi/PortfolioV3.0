@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
-    <title>Solid State by HTML5 UP</title>
+    <title>PORTFOLIO | Yahia Al-janabi</title>
+    <link rel="icon" type="image/gif/png" href="/images/fav.PNG" />
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -33,11 +29,10 @@
         <div class="inner">
           <h2>Menu</h2>
           <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#one">ABOUT ME</a></li>
+            <li><a href="#four">PORTFOLIO</a></li>
+            <li><a href="#footer">CONTACT</a></li>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
@@ -55,7 +50,7 @@
             /></span>
           </div>
           <h2>Yahia Al-janabi</h2>
-          <p>FULL STACK DEVELOPER</p>
+          <p><span id="typer"></span></p>
         </div>
       </section>
 
@@ -70,9 +65,13 @@
                 As a full stack web developer based in the granite city of
                 Aberdeen, and working from home my focus is in using JavaScript,
                 PHP, HTML and CSS to create outstanding, fully responsive,
-                cutting edge websites.
+                cutting edge websites. <br /><br />Having a focused history
+                within the field of computer programming and software
+                engineering and applying meticulous attention to detail towards
+                web development. I create simple to abstract yet complex
+                systems, software and web application solutions to modern
+                problems.
               </p>
-              <a href="#" class="special">Learn more</a>
             </div>
           </div>
         </section>
@@ -88,7 +87,7 @@
                 development and direction of your bussiness and web application
                 needs.
               </p>
-              <a href="#" class="special">Learn more</a>
+              <a href="#footer" class="special">Learn more</a>
             </div>
           </div>
         </section>
@@ -105,7 +104,7 @@
                 development. Here is a selection of my most recent commercial
                 projects...
               </p>
-              <a href="#" class="special">Learn more</a>
+              <a href="#four" class="special">Learn more</a>
             </div>
           </div>
         </section>
@@ -115,12 +114,12 @@
           <div class="inner">
             <h2 class="major">A selection of my commercial projects.</h2>
             <p>
-              To view source code and any of my personal projects, please see my
-              github.
+              To view source code and any of my commercial and personal
+              projects, please see my github.
             </p>
             <section class="features">
               <article>
-                <a href="#" class="image"
+                <a href="https://www.samha.co.uk/" target="_blank" class="image"
                   ><img src="images/samha.jpg" alt=""
                 /></a>
                 <h3 class="major">SAMHA</h3>
@@ -128,18 +127,31 @@
                   E-commerce website connected with Etsy, using Bootstrap grid
                   with hand coded HTML and CSS.
                 </p>
-                <a href="#" class="special">Learn more</a>
+                <a
+                  href="https://github.com/YahiaAl-janabi/Samha"
+                  target="_blank"
+                  class="special"
+                  >GitHub repo</a
+                >
               </article>
               <article>
-                <a href="#" class="image"
+                <a
+                  href="https://github.com/YahiaAl-janabi/Pixolage"
+                  target="_blank"
+                  class="image"
                   ><img src="images/pixolage.jpg" alt=""
                 /></a>
                 <h3 class="major">PIXOLAGE</h3>
                 <p>
-                  An SPA designed to market a powerful image viewing SaaS
+                  A SPA designed to market a powerful image viewing SaaS.
                   Created using hand coded HTML and CSS(Sass).
                 </p>
-                <a href="#" class="special">Learn more</a>
+                <a
+                  href="https://github.com/YahiaAl-janabi/Pixolage"
+                  target="_blank"
+                  class="special"
+                  >Learn more</a
+                >
               </article>
               <article style="display: none">
                 <a href="#" class="image"
@@ -176,12 +188,10 @@
         <div class="inner">
           <h2 class="major">Get in touch</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            If you would like a consultation about any web issues you might need
+            help with, just send my a message by email or the form below.
           </p>
-          <form method="post" action="#">
+          <form method="POST" data-netlify="true">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
@@ -200,35 +210,57 @@
               <li><input type="submit" value="Send Message" /></li>
             </ul>
           </form>
+          <link rel="stylesheet" href="/assets/css/social.css" />
           <ul class="contact">
-            <li class="icon solid fa-home">
-              Untitled Inc<br />
-              1234 Somewhere Road Suite #2894<br />
-              Nashville, TN 00000-0000
+            <li class="icon solid fa-phone">
+              <a href="tel:07394480573">07394480573</a>
             </li>
-            <li class="icon solid fa-phone">(000) 000-0000</li>
             <li class="icon solid fa-envelope">
-              <a href="#">information@untitled.tld</a>
+              <a href="mailto:mail@yahiaaljanabi.com">mail@yahiaaljanabi.com</a>
             </li>
-            <li class="icon brands fa-twitter">
-              <a href="#">twitter.com/untitled-tld</a>
+            <li>
+              <a href="#"
+                ><img class="socialf" src="/images/linkedin-2.svg" alt=""
+              /></a>
             </li>
-            <li class="icon brands fa-facebook-f">
-              <a href="#">facebook.com/untitled-tld</a>
+            <li>
+              <a href="#"
+                ><img class="socialf" src="/images/twitter-1.svg" alt=""
+              /></a>
             </li>
-            <li class="icon brands fa-instagram">
-              <a href="#">instagram.com/untitled-tld</a>
+            <li>
+              <a href="#"
+                ><img class="socialf" src="/images/github-1.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="socialstack"
+                  src="/images/stackoverflow-1.svg"
+                  alt=""
+              /></a>
             </li>
           </ul>
+
           <ul class="copyright">
-            <li>&copy; Untitled Inc. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Yahia Al-janabi. All rights reserved.</li>
+            <li>
+              <a href="/index.html"
+                ><img
+                  style="width: 2rem; border: 0.15rem solid white"
+                  src="/images/name1.png"
+                  alt=""
+              /></a>
+            </li>
           </ul>
         </div>
       </section>
     </div>
 
     <!-- Scripts -->
+    <script src="/assets/js/typed.js"></script>
+    <script src="/assets/js/typer.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
